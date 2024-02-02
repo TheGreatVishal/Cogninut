@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #8BF5F2; /* Light Blue */
 }
 
 .container {
@@ -15,8 +15,8 @@ p {
     font-size: 18px;
 }
 
-.navbar {
-    background-color: #4CAF50; /* Green */
+.navbar.navbar-light {
+    background: #F58B8F; /* Light Blue */
 }
 
 .navbar-brand, .navbar-nav .nav-link {
@@ -25,6 +25,13 @@ p {
 
 .navbar-toggler-icon {
     background-color: white;
+    border-radius: 100%;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+    border-radius: 100%;
 }
 
 .navbar-toggler {
