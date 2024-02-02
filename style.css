@@ -1,14 +1,17 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #A0F7F4; /* Light Blue */
+    background-color: #e0cbdd;
+    /* Light Blue */
 }
 
 .container {
     margin-top: 50px;
 }
 
-h1, h2 {
-    color: #4CAF50; /* Green */
+h1,
+h2 {
+    color: #4CAF50;
+    /* Green */
 }
 
 p {
@@ -16,10 +19,12 @@ p {
 }
 
 .navbar.navbar-light {
-    background: #F58B8F; /* Light Blue */
+    background: #F58B8F;
+    /* Light Blue */
 }
 
-.navbar-brand, .navbar-nav .nav-link {
+.navbar-brand,
+.navbar-nav .nav-link {
     color: white !important;
 }
 
@@ -29,8 +34,8 @@ p {
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.55);
-    border-color: rgba(0,0,0,.1);
+    color: rgba(0, 0, 0, .55);
+    border-color: rgba(0, 0, 0, .1);
     border-radius: 100%;
 }
 
@@ -38,6 +43,8 @@ p {
     border: none;
 }
 
-.focus-section, .play-section, .benefits-section {
+.focus-section,
+.play-section,
+.benefits-section {
     margin-top: 30px;
 }
