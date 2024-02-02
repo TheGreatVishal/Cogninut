@@ -52,3 +52,20 @@ p {
 .benefits-section {
     margin-top: 30px;
 }
+
+
+.welcome_top {
+    /* Add this style to center its children vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome_img {
+    /* Specify the maximum width and height of the image */
+    max-width: 100%;
+    max-height: 100%;
+    /* Ensure the image does not exceed its container's dimensions */
+    width: auto;
+    height: auto;
+}
