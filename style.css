@@ -92,7 +92,6 @@ p {
 }
 
 .welcome-description {
-    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
     margin-bottom: 20px;
@@ -122,4 +121,22 @@ p {
     max-height: 400px; /* Set the maximum height as needed */
     display: block; /* To remove any default inline spacing */
     margin: 0px; 
+}
+
+
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+    .focus-section {
+        padding: 20px; /* Adjust padding for larger screens */
+    }
+
+    #carouselExample img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #carouselExample span {
+        font-size: 18px;
+    }
 }
