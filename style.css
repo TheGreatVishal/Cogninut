@@ -26,7 +26,9 @@ p {
 
 .navbar-brand,
 .navbar-nav .nav-link {
-    color: white !important;
+    /* color: white !important; */
+    color: #333333;
+
 }
 
 .navbar-toggler-icon {
@@ -42,6 +44,12 @@ p {
 
 .navbar-toggler {
     border: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
 }
 
 
