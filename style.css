@@ -1,7 +1,8 @@
 body {
     font-family: 'Comic Sans MS', cursive;
     font-weight: bold;
-    background-color: #e0cbdd; /* Light Blue */
+    background-color: #e0cbdd;
+    /* Light Blue */
 }
 
 .container {
@@ -112,9 +113,16 @@ p {
 @media (max-width: 767px) {
 
     /* Adjust styles for screens with a maximum width of 767px (phones) */
+
+    .welcome_img {
+        display: block;
+        text-align: center;
+        border: 2px solid red;
+    }
+
     .welcome-img {
         position: relative;
-        left: 17%;
+        left: 25%;
     }
 }
 
@@ -193,7 +201,7 @@ p {
     }
 
     #carouselExample span {
-        font-size: 16px;
+        font-size: 2vh;
     }
 }
 
