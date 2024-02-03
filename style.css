@@ -1,14 +1,14 @@
 body {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    background-color: #e0cbdd;
+    background-color: white;
     /* Light Blue */
 }
 
 
 .container {
     margin-top: 20px;
-    background: #F58B8F;
+    background: white;
     /* Your desired background color */
     padding: 20px;
     border-radius: 15px;
