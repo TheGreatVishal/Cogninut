@@ -12,17 +12,22 @@ body {
 
 .container {
     margin-top: 20px;
-    background: #F58B8F; /* Your desired background color */
+    background: #F58B8F;
+    /* Your desired background color */
     padding: 20px;
-    border-radius: 15px; /* Adjust the border-radius for rounded corners */
-    width: 80%; /* Adjust the width as needed */
+    border-radius: 15px;
+    /* Adjust the border-radius for rounded corners */
+    width: 80%;
+    /* Adjust the width as needed */
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow for depth */
 
     /* Media query for smaller screens like phones */
     @media (max-width: 767px) {
-        width: 98%; /* Adjust the width for smaller screens */
+        width: 98%;
+        /* Adjust the width for smaller screens */
     }
 }
 
@@ -73,11 +78,14 @@ p {
 
 /* Add or update this styling in your CSS file */
 .navbar {
-    background-color: #E4F1A9; /* Change this to the desired color */
+    background-color: #E4F1A9;
+    /* Change this to the desired color */
 }
 
-.navbar-brand, .navbar-nav .nav-link {
-    color: #333; /* Adjust the text color as needed */
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #333;
+    /* Adjust the text color as needed */
 }
 
 
@@ -103,10 +111,14 @@ p {
 }
 
 .welcome-img {
-    border-radius: 15px; /* Adjust the border-radius for rounded corners */
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    height: auto; /* Maintain the aspect ratio */
-    display: block; /* Remove extra space below inline-block elements */
+    border-radius: 15px;
+    /* Adjust the border-radius for rounded corners */
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container's width */
+    height: auto;
+    /* Maintain the aspect ratio */
+    display: block;
+    /* Remove extra space below inline-block elements */
     margin-left: auto;
     margin-right: auto;
 }
@@ -143,10 +155,13 @@ p {
 }
 
 .welcome-img {
-    max-width: 100%; /* Set the maximum width to 100% of its container */
-    max-height: 400px; /* Set the maximum height as needed */
-    display: block; /* To remove any default inline spacing */
-    margin: 0px; 
+    max-width: 100%;
+    /* Set the maximum width to 100% of its container */
+    max-height: 400px;
+    /* Set the maximum height as needed */
+    display: block;
+    /* To remove any default inline spacing */
+    margin: 0px;
 }
 
 
@@ -154,7 +169,8 @@ p {
 /* Styles for larger screens */
 @media (min-width: 768px) {
     .focus-section {
-        padding: 20px; /* Adjust padding for larger screens */
+        padding: 20px;
+        /* Adjust padding for larger screens */
     }
 
     #carouselExample img {
@@ -172,21 +188,24 @@ p {
 }
 
 .focus-section {
-    background-color: #F7D6D5; /* Your desired lighter background color */
+    background-color: #F7D6D5;
+    /* Your desired lighter background color */
     padding: 20px;
     border-radius: 15px;
     margin-top: 20px;
 }
 
 .focus-description {
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 18px;
+    /* Adjust font size as needed */
     display: block;
     margin-top: 10px;
 }
 
 /* Adjust images within the carousel */
 #carouselExample img {
-    border-radius: 10px; /* Adjust the border-radius for rounded corners */
+    border-radius: 10px;
+    /* Adjust the border-radius for rounded corners */
     max-width: 100%;
     height: auto;
     display: block;
@@ -195,6 +214,7 @@ p {
 
 /* Adjust the size of carousel control buttons on smaller screens */
 @media (max-width: 768px) {
+
     .carousel-control-prev,
     .carousel-control-next {
         width: 5%;
@@ -203,13 +223,16 @@ p {
 
 .carousel-control-next,
 .carousel-control-prev {
-    width: 40px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
-    border-radius: 50%; /* Make it round */
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* Make it round */
     background: coral;
     position: absolute;
-    top: ;
-    opacity: 0.8; /* Adjust the opacity if needed */
+    opacity: 0.8;
+    /* Adjust the opacity if needed */
 }
 
 .carousel-control-prev {
