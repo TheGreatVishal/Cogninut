@@ -8,6 +8,8 @@ body {
     /* Light Blue */
 }
 
+
+
 .container {
     margin-top: 20px;
     background: #F58B8F; /* Your desired background color */
@@ -27,7 +29,7 @@ body {
 
 h1,
 h2 {
-    color: #4CAF50;
+    color: #333333;
     /* Green */
 }
 
@@ -165,6 +167,9 @@ p {
     }
 }
 
+#what-we-focus {
+    text-align: center;
+}
 
 .focus-section {
     background-color: #F7D6D5; /* Your desired lighter background color */
@@ -188,12 +193,6 @@ p {
     margin: 10px auto;
 }
 
-/* Adjust carousel control buttons */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: #4CAF50; /* Your desired color for carousel control buttons */
-}
-
 /* Adjust the size of carousel control buttons on smaller screens */
 @media (max-width: 768px) {
     .carousel-control-prev,
@@ -202,3 +201,23 @@ p {
     }
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make it round */
+    background: coral;
+    position: absolute;
+    top: ;
+    opacity: 0.8; /* Adjust the opacity if needed */
+}
+
+.carousel-control-prev {
+    left: 0;
+    top: 34%;
+}
+
+.carousel-control-next {
+    right: 0;
+    top: 34%;
+}
