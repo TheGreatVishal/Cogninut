@@ -157,3 +157,41 @@ p {
         font-size: 18px;
     }
 }
+
+
+.focus-section {
+    background-color: #F7D6D5; /* Your desired lighter background color */
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.focus-description {
+    font-size: 18px; /* Adjust font size as needed */
+    display: block;
+    margin-top: 10px;
+}
+
+/* Adjust images within the carousel */
+#carouselExample img {
+    border-radius: 10px; /* Adjust the border-radius for rounded corners */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Adjust carousel control buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #4CAF50; /* Your desired color for carousel control buttons */
+}
+
+/* Adjust the size of carousel control buttons on smaller screens */
+@media (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5%;
+    }
+}
+
