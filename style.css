@@ -466,15 +466,11 @@ p {
 .carousel-control-next,
 .carousel-control-prev {
     width: 40px;
-    /* Adjust the width as needed */
     height: 40px;
-    /* Adjust the height as needed */
     border-radius: 50%;
-    /* Make it round */
     background: coral;
     position: absolute;
     opacity: 0.8;
-    /* Adjust the opacity if needed */
 }
 
 .carousel-control-prev {
@@ -489,7 +485,6 @@ p {
 
 .focus-description {
     font-size: 18px;
-    /* Adjust font size as needed */
     display: block;
     margin-top: 10px;
 }
@@ -518,4 +513,82 @@ p {
     .carousel-control-next {
         right: 0;
     }
+}
+
+
+
+
+/* benefits carousel */
+/* Styles for the Benefits carousel */
+.benefits-section {
+    background-color: #F7D6D5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#benefitsCarousel img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    max-height: 150px; /* Set the maximum height for the images */
+}
+
+/* Adjust the size of carousel control buttons on smaller screens */
+@media (max-width: 768px) {
+    #benefitsCarousel img {
+        width: auto;
+        max-height: 120px; /* Set a smaller maximum height on smaller screens */
+    }
+
+    #benefitsCarousel .carousel-control-prev,
+    #benefitsCarousel .carousel-control-next {
+        width: 5%;
+        height: 5%;
+        border-radius: 50%;
+        background: coral;
+        position: absolute;
+        opacity: 0.8;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #benefitsCarousel .carousel-control-prev {
+        left: 0;
+    }
+
+    #benefitsCarousel .carousel-control-next {
+        right: 0;
+    }
+}
+
+#benefitsCarousel .carousel-control-next,
+#benefitsCarousel .carousel-control-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: coral;
+    position: absolute;
+    opacity: 0.8;
+    top: 34%;
+}
+
+#benefitsCarousel .carousel-control-prev {
+    left: -1%;
+}
+
+#benefitsCarousel .carousel-control-next {
+    right: -1%;
+}
+
+.focus-description {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+#benefitsCarousel span {
+    font-size: 18px;
 }
