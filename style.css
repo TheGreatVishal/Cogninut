@@ -1,9 +1,10 @@
 body {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     background-color: #e0cbdd;
     /* Light Blue */
 }
+
 
 .container {
     margin-top: 20px;
