@@ -30,7 +30,7 @@ p {
 }
 
 .navbar-toggler-icon {
-    background-color: white;
+    background-color: #F58B8F;
     border-radius: 100%;
 }
 
@@ -43,6 +43,17 @@ p {
 .navbar-toggler {
     border: none;
 }
+
+
+/* Add or update this styling in your CSS file */
+.navbar {
+    background-color: #E4F1A9; /* Change this to the desired color */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #333; /* Adjust the text color as needed */
+}
+
 
 .focus-section,
 .play-section,
