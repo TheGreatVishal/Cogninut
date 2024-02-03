@@ -4,7 +4,6 @@ body {
     background-color: #e0cbdd; /* Light Blue */
 }
 
-
 .container {
     margin-top: 20px;
     background: #F58B8F;
@@ -39,12 +38,10 @@ p {
 
 .navbar.navbar-light {
     background: #F58B8F;
-    /* Light Blue */
 }
 
 .navbar-brand,
 .navbar-nav .nav-link {
-    /* color: white !important; */
     color: #333333;
 
 }
@@ -71,16 +68,13 @@ p {
 }
 
 
-/* Add or update this styling in your CSS file */
 .navbar {
     background-color: #E4F1A9;
-    /* Change this to the desired color */
 }
 
 .navbar-brand,
 .navbar-nav .nav-link {
     color: #333;
-    /* Adjust the text color as needed */
 }
 
 
@@ -113,6 +107,7 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 @media (max-width: 767px) {
 
@@ -183,6 +178,26 @@ p {
         font-size: 18px;
     }
 }
+
+/* Styles for smaller screens */
+@media (max-width: 767px) {
+    .focus-section {
+        /* Adjust padding or other styles for smaller screens */
+        padding: 10px;
+    }
+
+    #carouselExample img {
+        /* max-width: 100%; */
+        width: 77%;
+        height: auto;
+    }
+
+    #carouselExample span {
+        font-size: 16px;
+    }
+}
+
+
 
 #what-we-focus {
     text-align: center;
