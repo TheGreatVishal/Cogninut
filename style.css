@@ -124,7 +124,7 @@ p {
     /* Adjust styles for screens with a maximum width of 767px (phones) */
     .welcome-img {
         position: relative;
-        left: 22%;
+        left: 17%;
     }
 }
 
