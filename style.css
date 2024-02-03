@@ -116,12 +116,6 @@ p {
     .welcome_img {
         display: block;
         text-align: center;
-        border: 2px solid red;
-    }
-
-    .welcome-img {
-        position: relative;
-        left: 14%;
     }
 }
 
