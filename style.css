@@ -121,7 +121,7 @@ p {
 
     .welcome-img {
         position: relative;
-        left: 16%;
+        left: 14%;
     }
 }
 
@@ -246,6 +246,14 @@ p {
     .carousel-control-next {
         width: 5%;
     }
+    .carousel-control-prev {
+        left: -3%;
+    }
+    
+    .carousel-control-next {
+        right: -3%;
+    }
+
 }
 
 .carousel-control-next,
@@ -306,6 +314,14 @@ p {
     .carousel-control-prev,
     .carousel-control-next {
         width: 5%;
+    }
+
+    .carousel-control-prev {
+        left: -3%;
+    }
+    
+    .carousel-control-next {
+        right: -3%;
     }
 }
 
