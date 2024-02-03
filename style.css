@@ -425,6 +425,7 @@ p {
     font-size: 18px;
 }
 
+/* Assessment carousel */
 /* Styles for the Assessment-Centered section */
 .assessment-centered-section {
     background-color: #F7D6D5;
@@ -496,8 +497,8 @@ p {
 @media (max-width: 768px) {
     .carousel-control-prev,
     .carousel-control-next {
-        width: 5%;
-        height: 5%;
+        width: 10%;
+        height: 10%;
         border-radius: 50%;
         background: coral;
         position: absolute;
@@ -532,8 +533,8 @@ p {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 10px auto;
-    max-height: 150px; /* Set the maximum height for the images */
+    margin: auto auto;
+    max-height: 200px;
 }
 
 /* Adjust the size of carousel control buttons on smaller screens */
@@ -545,8 +546,8 @@ p {
 
     #benefitsCarousel .carousel-control-prev,
     #benefitsCarousel .carousel-control-next {
-        width: 5%;
-        height: 5%;
+        width: 10%;
+        height: 10%;
         border-radius: 50%;
         background: coral;
         position: absolute;
