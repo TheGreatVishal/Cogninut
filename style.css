@@ -210,6 +210,10 @@ p {
     text-align: center;
 }
 
+#power-of-play {
+    text-align: center;
+}
+
 .focus-section {
     background-color: #F7D6D5;
     /* Your desired lighter background color */
@@ -237,6 +241,67 @@ p {
 
 /* Adjust the size of carousel control buttons on smaller screens */
 @media (max-width: 768px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 5%;
+    }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* Make it round */
+    background: coral;
+    position: absolute;
+    opacity: 0.8;
+    /* Adjust the opacity if needed */
+}
+
+.carousel-control-prev {
+    left: -1%;
+    top: 34%;
+}
+
+.carousel-control-next {
+    right: -1%;
+    top: 34%;
+}
+
+.play-section {
+    background-color: #F7D6D5;
+    /* Your desired lighter background color */
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.play-description {
+    font-size: 18px;
+    /* Adjust font size as needed */
+    display: block;
+    margin-top: 10px;
+}
+
+/* Adjust images within the play carousel */
+#playCarousel img {
+    border-radius: 10px;
+    /* Adjust the border-radius for rounded corners */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Adjust the size of carousel control buttons on smaller screens */
+@media (max-width: 768px) {
+    #playCarousel img {
+        width: 77%;
+    }
 
     .carousel-control-prev,
     .carousel-control-next {
