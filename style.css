@@ -22,7 +22,6 @@ body {
     /* Media query for smaller screens like phones */
     @media (max-width: 767px) {
         width: 98%;
-        /* Adjust the width for smaller screens */
     }
 }
 
@@ -260,11 +259,11 @@ p {
 }
 
 .carousel-control-prev {
-    left: 0;
+    left: -1%;
     top: 34%;
 }
 
 .carousel-control-next {
-    right: 0;
+    right: -1%;
     top: 34%;
 }
