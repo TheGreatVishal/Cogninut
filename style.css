@@ -1,13 +1,8 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #e0cbdd;
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Comic Sans MS', cursive;
     font-weight: bold;
-
-    /* Light Blue */
+    background-color: #e0cbdd; /* Light Blue */
 }
-
 
 
 .container {
