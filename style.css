@@ -8,7 +8,14 @@ body {
 }
 
 .container {
-    margin-top: 10px;
+    margin-top: 20px;
+    background: #F58B8F; /* Your desired background color */
+    padding: 20px;
+    border-radius: 15px; /* Adjust the border-radius for rounded corners */
+    width: 80%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
 }
 
 h1,
@@ -85,6 +92,16 @@ p {
     width: auto;
     height: auto;
 }
+
+.welcome-img {
+    border-radius: 15px; /* Adjust the border-radius for rounded corners */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove extra space below inline-block elements */
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .description {
     max-width: 100%;
