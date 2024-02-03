@@ -77,6 +77,12 @@ p {
     color: #333;
 }
 
+.nav-link:hover {
+    transition: border-bottom 0.3s ease;
+    color: #000000; /* Change the color to your preferred hover color */
+}
+
+
 
 .focus-section,
 .play-section,
@@ -593,3 +599,22 @@ p {
 #benefitsCarousel span {
     font-size: 18px;
 }
+.footer .container2 {
+    margin-top: 20px;
+    background: #F58B8F;
+    /* Your desired background color */
+    padding: 20px;
+    /* Adjust the border-radius for rounded corners */
+    width: 80%;
+    /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer .container2 a img {
+    max-width: 30px; /* Set your desired max-width for social media icons */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
